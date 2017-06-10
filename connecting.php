@@ -41,8 +41,8 @@ $form->onSubmit(function($form) {
 	$form->model->save();
 	return $form->success('Good Job!!!');	
 });
-
+/*
 If ($_GET['key'] == 'ok') {
 	$button = $app->layout->add(['Button', "Check your friends", 'icon'=>'smile']);
 	$button->link('taskpart2');
-	};
+	}; */
